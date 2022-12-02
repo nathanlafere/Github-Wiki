@@ -14,13 +14,25 @@ export const ItemContainer = styled.div`
         margin-bottom:20px;
     }
 
-    a.remover {
-        color: #FF0000;
-        margin-top:20px;
+    .remover {
+        font-weight: 600;
+        text-decoration: none;
+        margin-left: 25px;
+        color: #ff0000;
+        &:hover {
+            cursor: pointer;
+        }
     }
+
+    a.seeRepo {
+        font-weight: 600;
+        text-decoration: none;
+        color: #1789FC;
+    }
+
 
     hr {
         color: #FAFAFA60;
-        margin: 20px 0;
+        margin: 10px 0;
     }
 `

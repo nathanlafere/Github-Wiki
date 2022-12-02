@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
-    height: 90vh;
+    margin: 25px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
 
-    margin: 20px 0 0 0;
-
-    display:flex;
+export const RepoContainer = styled.div`
+    padding-top: 10px;
+    height: calc(100vh - 300px);
+    margin-top: 45px;
+    overflow: auto;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
 `

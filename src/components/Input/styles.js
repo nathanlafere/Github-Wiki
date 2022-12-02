@@ -5,8 +5,9 @@ export const InputContainer = styled.div`
     border: 1px solid #FAFAFA;
     border-radius: 20px;
 
-    height: 62px;
-    width: 80%;
+    height: 45px;
+    width: 90%;
+    max-width: 460px;
 
     margin: 20px;
     
@@ -14,11 +15,16 @@ export const InputContainer = styled.div`
     input {
         background: transparent;
         border: 0;
-        width: 90%;
-        height: 62px;
-        padding: 0 20px;
+
+        width: calc(100% - 20px);
+        height: 45px;
+        padding: 0 10px;
         color: #FFFFFF;
-        font-size: 20px
+        font-size: 20px;
+        &:focus {
+            box-shadow: 0 0 0 0;
+            outline: 0;
+        }
     }
 
 `
